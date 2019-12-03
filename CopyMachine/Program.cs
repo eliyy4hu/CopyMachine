@@ -14,7 +14,7 @@
             copyMachine.SetDocumentName("kursach.docx");
             copyMachine.PrintDocument();
             copyMachine.GiveChange();
-            //--
+            //Exception here
             copyMachine.SetDocumentName("flash");
         }
     }
